@@ -460,7 +460,6 @@ class Flow(PostMixin, JAMLCompatible, ExitStack, metaclass=FlowType):
     @overload
     def add(
         self,
-        *args,
         connect_to_predecessor: Optional[bool] = False,
         ctrl_with_ipc: Optional[bool] = False,
         daemon: Optional[bool] = False,
