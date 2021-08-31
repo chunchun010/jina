@@ -186,6 +186,7 @@ ac_table = {
             '--pea-role',
             '--noblock-on-start',
             '--routing-table',
+            '--deployments',
             '--dynamic-routing',
             '--connect-to-predecessor',
         ],
